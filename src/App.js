@@ -1,9 +1,8 @@
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-  <h1>Hello world!</h1>
-  );
+  const name = prompt("Your name: ");
+  return <h1>Hello,{name}!</h1>;
 }
 
 export default App;
